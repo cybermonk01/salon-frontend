@@ -78,7 +78,9 @@ function Home() {
                 alt=""
               />
               <div className="line"></div>
-              <span>Salon for Women</span>
+              <Link className="link" to="/gigs">
+                <span>Salon for Women</span>
+              </Link>
             </div>
             <div className="item">
               <img
@@ -86,8 +88,9 @@ function Home() {
                 alt=""
               />
               <div className="line"></div>
-
-              <span>Hair services for Women</span>
+              <Link className="link" to="/gigs">
+                <span>Hair services for Women</span>
+              </Link>
             </div>
             <div className="item">
               <img
@@ -95,7 +98,9 @@ function Home() {
                 alt=""
               />
               <div className="line"></div>
-              <span>Women Therapies</span>
+              <Link className="link" to="/gigs">
+                <span>Women Therapies</span>
+              </Link>
             </div>
             <div className="item">
               <img
